@@ -1,0 +1,84 @@
+
+.banner {
+  background-image: url("computer-arts.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 700px;
+  width: 100%;
+  color: #000033;
+}
+
+#banner-content {
+  border: 1px solid #000033;
+  padding: 30px 10px;
+  margin: auto;
+  position: relative;
+  top: 20%;
+  width: 60%;
+}
+
+
+.logo {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  padding: 0px 50px;
+}
+
+.share {
+	border: 1px solid #DDD;
+  	padding: 40px 0px;
+  	position: relative;
+  	text-align: center;
+  	width: 100%;
+}
+
+.share a {
+  background: #000033;
+  border: 1px solid purple;
+  border-radius: 3px;
+  color: #FFF;
+  display: inline-block;
+  margin: 10px 10px;
+  padding: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.share a:hover {
+  background: #FFF;
+  border: 1px solid #D7263D;
+  color: #D7263D;
+  animation: ease;
+}
+
+
+.photo2 {
+	text-align: center;
+}
+
+.A-Z {
+	text-align: center;
+}
+
+/
+.H54 {
+	background-image: url("computer-arts.jpg");
+	background-position: bottom center;
+  height: 700px;
+  width: 100%;
+  color: #000033;
+}
+
+@media screen and (max-width:500px) {
+  #banner-content {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:500px) {
+	.share a {
+		background: red;
+  }
+}
